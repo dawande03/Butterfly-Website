@@ -1,0 +1,185 @@
+/*section 1*/
+@media (max-width:500px) {
+    nav{
+        width: 100%;
+    }
+    .container1{
+        width: 100%;
+        flex-direction: column;
+        position: relative;
+    }
+    .main-head{
+        width: 95%;
+    }
+    #logo{
+        margin: 0 auto;
+        text-align: center;
+        }
+    .container1 ul{
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        flex-direction: column;    
+        left: -800px;
+        text-align: center;
+        transition: all 0.5s;
+        background-color: #000;    
+        z-index: 1;
+        text-align: center;    
+    }
+    .container1 li a{
+        color: white;
+    }
+    #chk:checked ~ ul{
+        left:0;
+    }
+    #chk{
+        display: block;
+        position: absolute;
+        right: 30px;
+        top:20px;
+        opacity: 0;
+        cursor: pointer;
+    }
+    .clk{
+        display: block;
+        position: absolute;
+        right: 30px;
+        top:20px;
+    }
+    /*SECTION-2*/
+
+.container2{
+    margin-top: 50px;
+    flex-direction: column;
+    width: 70%;
+}
+.image1, img{
+    width: 100%;
+}
+/*section-3 services*/
+.container3{
+    margin-top: 30px;
+    width: 100%;
+    flex-direction:column;
+}
+.service-section3{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.service-section3 .myicon{
+    margin-top: -10px;
+}
+/*Section-4*/
+.container4{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+.container4img{
+    margin-top: 30px;
+    width: 100%;
+    
+}
+/*section-5*/
+.container5{
+    width:100%;
+    text-align: center;
+}
+.container5 ul{
+    text-align: center;
+    flex-direction: column;
+}
+/*section-6 happy client*/
+.container6{
+    width: 100%;
+}
+.content6-1{
+    flex-direction: column;
+}
+.content6-2{
+    flex-direction: column;
+}
+.content6-img2 img{
+    width: 50%;
+}
+.content6-img1 img{
+    width: 50%;
+}
+span img{
+    width: 20%;
+}
+/*section-7*/
+
+.section-7{
+    width: 89%;
+    height: auto;
+    padding: 20px;
+    background-size: cover;
+}
+.container7 ul{
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+}
+.container7 ul li{
+    padding: 20px;
+}
+/*section-8 AMAZING TEAM */
+.section-8{
+    width: 100%;
+}
+.container8{
+    width: fit-content;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.amazing-team-box1{
+    width: 100%;
+}
+.team-link{
+    width: 100%;
+    position:relative;
+    top:100px;
+}
+/*section-10*/
+.section-10{
+    width: 100%;
+}
+.container10{
+    width: 100%;
+}
+.content10{
+    flex-direction: column;   
+}
+.content-box1{
+   width: 100%;
+}
+.content2-10{
+    width: 95%;
+    flex-direction: column;
+    align-items:center;
+}
+.content2-1{
+     width: 100%;
+     text-align: center;
+}
+.icon-10{
+display: flex;
+flex-direction: column;
+text-align: center;
+width: 20%;
+margin: 0 auto;
+}
+.form{
+    width: 100%;
+}
+
+}
+
+
+
+
+
